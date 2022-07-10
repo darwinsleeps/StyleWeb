@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body{
+    padding: 0 0px;
+}
+
+/*NAV BAR*/
+
+.nav-bar{
+    background-color: #171717;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: #f02475;
+    margin-bottom: 30px;
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.logo h1{
+    font-size: 2.5rem;
+    color:#fff ;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 30px;
+}
+.nav-link:hover{
+    border-bottom: #fff 1px solid;
+    transition: 0.4s;  
+}
+
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*MAIN*/
+
+h1,p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.container-servicos{
+    display: flex;
+    justify-content: space-around;
+    width: 1500px;
+    height: 800px;
+}
+
+.servicos-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.servicos-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.servicos{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #171717;
+    padding: 40px;
+    border-radius: 100px;
+    transition: 0.4s;
+}
+
+.servicos:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container-cabelo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.container-cabelo img{
+    height: 400px;
+    width: 400px;
+}
+
+.container-cabelo img{
+    transition: 0.4s;
+}
+.container-cabelo img:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+.titulo{
+    color: #171717;
+}
+
+button{
+    height: 100px;
+    width: 200px;
+    border: 0;
+    background-color: #171717;
+    color:#fff;
+    transition: 0.4s;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+.profissional{
+    width: 800px;
+}
